@@ -14,3 +14,5 @@ module Beat
   ROOT = Pathname($LOAD_PATH.first) unless Beat.const_defined?("ROOT")
   LIBDIR = ROOT/:lib unless Beat.const_defined?("LIBDIR")
 end
+require "time"
+require "beat/time"
