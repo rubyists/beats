@@ -1,7 +1,7 @@
 module Beat
   class Time < ::Time
     def to_beats
-      self.class.at(self.utc + 3600)
+      self.class.at(self.utc)
     end
 
     def beats
