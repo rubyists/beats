@@ -13,7 +13,7 @@ module Beat
     end
 
     def beat_datetime_string
-      strftime("%Y-%mm-%dd@#{"%0.2f" % beats}")
+      strftime("%Y-%mm-%dd @#{"%0.2f" % beats}")
     end
   end
 end
